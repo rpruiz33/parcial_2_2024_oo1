@@ -69,7 +69,7 @@ public boolean agregarOperacion(LocalDate fecha, Alquiler alquiler2, String deta
     return flag;
 }
 
-public boolean agregarOperacion2(LocalDate fecha, Venta venta, String detalle, float ICL1) {
+public boolean agregarOperacion(LocalDate fecha, Venta venta, String detalle, float ICL1) {
     int id = 1;
     boolean flag=false;
 
