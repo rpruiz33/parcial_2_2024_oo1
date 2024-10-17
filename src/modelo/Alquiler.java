@@ -70,9 +70,10 @@ public void actualizarAlquiler(LocalDate fecha, float ICL1) {
 }
 @Override
 public String toString() {
-	return "\nAlquiler [fechaInicioContrato=" + fechaInicioContrato + ", CantMesesContrato=" + CantMesesContrato
+	return "Alquiler [fechaInicioContrato=" + fechaInicioContrato + ", CantMesesContrato=" + CantMesesContrato
 			+ ", frecuenciaMesesActualizacion=" + frecuenciaMesesActualizacion + ", alquilerMensual=" + alquilerMensual
 			+ ", ICL0=" + ICL0 + ", fechaUlActulizacion=" + fechaUlActulizacion + ", idInmueble=" + idInmueble
 			+ ", cantAmbientes=" + cantAmbientes + ", localidad=" + localidad + "]";
 }
+
 }
